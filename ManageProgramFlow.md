@@ -91,6 +91,8 @@ Task<Int32[]> parent = Task.Run(() =>
 
 
 ### The Parallel Class
+- Split task to be run concurrently 
+- Only worth doing if you have a lot of work to do
 
 ```csharp
 Parallel.For(0, 10, i => 
@@ -119,6 +121,9 @@ Parallel.For(0, 1000, (int i, ParallelLoopState loopState)  =>
 ```
 
 ### Async and Await
+
+- Running a task using the async 
+- **async** and **await** keywords were introduced in C# 5
 
 ### PLINQ
 
