@@ -208,6 +208,16 @@ All exceptions thrown in a PLINQ statement are collected in an **AggregatedExcep
 - Contains atomic actions to ensure thread safe
   - AddOrUpdate - Ensures an item is added if it is not there
   - GetOrAdd - Gets the value of teh item if it is available otherwise it will add the item
+  
+## 1.2 Manage Multithreading
+
+### Synchronising Resources
+
+### Volatile Class
+
+### The Interlocked Class
+
+### Canceling Tasks
 
 
 
